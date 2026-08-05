@@ -17,17 +17,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!email) {
       message.textContent = 'Please enter your email address.';
-      message.classList.add('text-burgundy');
+      message.classList.add('text-berry');
       return;
     }
     if (!notRobot) {
       message.textContent = 'Please confirm the "not a robot" checkbox.';
-      message.classList.add('text-burgundy');
+      message.classList.add('text-berry');
       return;
     }
     if (!consentGiven) {
       message.textContent = 'Please confirm you consent to receive marketing emails.';
-      message.classList.add('text-burgundy');
+      message.classList.add('text-berry');
       return;
     }
 
@@ -45,14 +45,14 @@ document.addEventListener('DOMContentLoaded', () => {
       if (data.success) {
         form.reset();
         message.textContent = "You're on the list. See you at launch.";
-        message.classList.add('text-forest');
+        message.classList.add('text-cyan');
       } else {
         message.textContent = data.error || 'Something went wrong. Please try again.';
-        message.classList.add('text-burgundy');
+        message.classList.add('text-berry');
       }
     } catch (err) {
       message.textContent = 'Network error — please try again in a moment.';
-      message.classList.add('text-burgundy');
+      message.classList.add('text-berry');
     } finally {
       submitBtn.disabled = false;
       submitBtn.classList.remove('opacity-60');

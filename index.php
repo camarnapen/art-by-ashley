@@ -60,7 +60,7 @@
 
   <main class="w-full max-w-xl text-center">
 
-    <span class="inline-block font-poster text-xs tracking-[0.2em] border-2 border-berry text-berry px-4 py-1.5 mb-7 -rotate-2">
+    <span class="inline-block font-poster text-sm tracking-[0.2em] border-2 border-berry text-berry px-5 py-2 mb-7 -rotate-2">
       Coming Soon
     </span>
 

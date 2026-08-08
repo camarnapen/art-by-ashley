@@ -69,15 +69,12 @@
     </h1>
 
     <p class="font-poster text-cyan text-base sm:text-lg tracking-[0.18em] mb-8">
-      Clay Creatures &middot; Circuit Critters &middot; Made to Order
+      No Two Alike &middot; Made to Order &middot; Made by Me
     </p>
 
     <p class="text-bone2 leading-relaxed max-w-md mx-auto mb-10">
-      A little dark academia, a little unhinged, entirely handmade.
-      I sculpt clay oddities and solder up circuit-board curiosities in
-      small, made-to-order batches — no two exactly alike, all of them
-      a bit too charming for their own good. The shop's still being
-      built, but the good stuff is on its way.
+      A little unhinged, entirely handmade. I make clay sculptures, abstract paintings, and whatever other oddities come out of my strange brain.
+      Made-to-order — so no two pieces are exactly alike, and yes, customization's on the table. Sign up below and be one of the first to see what's in stock!
     </p>
 
     <!-- Signup card -->
@@ -111,7 +108,7 @@
         <button
           type="submit"
           class="btn-punch transition-transform w-full bg-cyan text-plum
-                 font-poster tracking-[0.1em] py-3 text-sm uppercase hover:bg-cyan/90"
+                 font-poster tracking-[0.1em] py-3 text-lg uppercase hover:bg-cyan/90"
         >
           Claim My Spot
         </button>
@@ -121,13 +118,7 @@
     </div>
 
     <footer class="text-xs text-bone2 space-y-2">
-      <p>
-        Questions, commissions, or just want to say hi early?
-        <a href="mailto:<?= htmlspecialchars(SITE_EMAIL) ?>" class="link-underline text-berry font-medium">
-          <?= htmlspecialchars(SITE_EMAIL) ?>
-        </a>
-      </p>
-      <p>&copy; <?= date('Y') ?> <?= htmlspecialchars(SITE_NAME) ?>. Handmade, made-to-order, made with a little chaos.</p>
+      <p>&copy; <?= date('Y') ?> <?= htmlspecialchars(SITE_NAME) ?></p>
     </footer>
 
   </main>

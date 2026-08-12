@@ -73,13 +73,12 @@
     </p>
 
     <p class="text-bone2 leading-relaxed max-w-md mx-auto mb-10">
-      A little unhinged, entirely handmade. I make clay sculptures, abstract paintings, and whatever other oddities come out of my strange brain.
-      Made-to-order — so no two pieces are exactly alike, and yes, customization's on the table. Sign up below and be one of the first to see what's in stock!
+      A little unhinged; entirely handmade. I make weird sculptures, abstract paintings, and whatever other oddities come out of my strange brain. No two pieces are exactly alike, and yes, customization's on the table. Sign up below, and be one of the first to see what's in stock!
     </p>
 
     <!-- Signup card -->
     <div class="bg-plum2 border-2 border-berry p-8 sm:p-10 mb-10 mx-auto max-w-md">
-      <p class="font-poster text-2xl tracking-wide mb-1">Be First to Know</p>
+      <p class="font-poster text-2xl tracking-wide mb-1">Join the party</p>
       <p class="text-sm text-bone2 mb-6">
         Launch news, made-to-order drops, and the occasional unhinged behind-the-scenes.
       </p>
@@ -102,7 +101,7 @@
 
         <label class="flex items-start gap-2.5 text-sm text-bone2 cursor-pointer">
           <input type="checkbox" id="consent_given" name="consent_given" required class="poster-check mt-0.5 h-4 w-4">
-          <span>I consent to receiving marketing emails from Art by Ashley. Unsubscribe any time, no hard feelings.</span>
+          <span>I consent to receiving marketing emails from Ashley. Unsubscribe any time, no hard feelings.</span>
         </label>
 
         <button
@@ -110,7 +109,7 @@
           class="btn-punch transition-transform w-full bg-cyan text-plum
                  font-poster tracking-[0.1em] py-3 text-lg uppercase hover:bg-cyan/90"
         >
-          Claim My Spot
+          Subscribe
         </button>
 
         <p id="form-message" class="text-sm text-center pt-1" role="status" aria-live="polite"></p>

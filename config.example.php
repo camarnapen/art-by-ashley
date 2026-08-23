@@ -7,7 +7,7 @@
 
 define('SITE_NAME', 'Art by Ashley');
 define('SITE_TAGLINE', 'Clay sculptures, abstract paintings, and handmade oddities, made to order.');
-define('SITE_URL', 'https://ashleycamarneiro.ca');
+define('SITE_URL', 'https://artbyahhhshuhlee.ca');
 define('SITE_EMAIL', 'hello@ashleycamarneiro.ca');
 define('SITE_LOCATION', 'Canada');
 

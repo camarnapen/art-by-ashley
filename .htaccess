@@ -4,3 +4,18 @@
 <Files "config.example.php">
     Require all denied
 </Files>
+
+RewriteEngine On
+
+# /index.php -> / (not /index)
+RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
+RewriteRule ^index\.php$ / [R=301,L]
+
+# /some-page.php -> /some-page (visible redirect, so .php never shows in the URL bar)
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# /some-page -> some-page.php (internal only, invisible to the visitor)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^.]+)$ $1.php [NC,L]

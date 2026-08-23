@@ -119,6 +119,7 @@
 
     <footer class="text-xs text-bone2 space-y-2">
       <p>&copy; <?= date('Y') ?> <?= htmlspecialchars(SITE_NAME) ?></p>
+      <p>Website designed by <a href="https://penichecomms.ca" target="_blank" rel="noopener" class="link-underline text-berry font-medium">Peniche Communications</a></p>
     </footer>
 
   </main>

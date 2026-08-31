@@ -8,7 +8,8 @@
 <meta name="description" content="<?= htmlspecialchars(SITE_TAGLINE) ?>">
 <link rel="canonical" href="<?= htmlspecialchars(SITE_URL) ?>/">
 <meta name="color-scheme" content="dark">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕯️</text></svg>">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,7 +43,11 @@
     background-color: #140f18;
     background-image:
       radial-gradient(circle at 12% 15%, rgba(53,224,200,0.07), transparent 40%),
-      radial-gradient(circle at 88% 85%, rgba(232,63,116,0.09), transparent 45%);
+      radial-gradient(circle at 88% 85%, rgba(232,63,116,0.09), transparent 45%),
+      url('assets/img/bg-texture.png');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center, center, 50% -4rem;
+    background-size: auto, auto, min(900px, 140vw) auto;
   }
   input[type="checkbox"].poster-check {
     accent-color: #35e0c8;
@@ -61,7 +66,7 @@
 
   <main class="w-full max-w-xl text-center">
 
-    <span class="inline-block font-poster text-sm tracking-[0.2em] border-2 border-berry text-berry px-5 py-2 mb-7 -rotate-2">
+    <span class="inline-block font-poster text-sm tracking-[0.2em] border-2 border-berry text-berry px-5 py-2 mb-7">
       Coming Soon
     </span>
 

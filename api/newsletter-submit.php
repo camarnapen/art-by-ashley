@@ -38,4 +38,11 @@ try {
     json_response(['success' => false, 'error' => 'An unexpected error occurred.'], 500);
 }
 
+$subject = 'New newsletter signup - '.SITE_NAME;
+$body = "Email: $email\n";
+$headers = "From: ".MAIL_FROM."\r\n"
+    ."Content-Type: text/plain; charset=UTF-8\r\n"
+    ."MIME-Version: 1.0";
+mail(NOTIFY_EMAIL, $subject, $body, $headers);
+
 json_response(['success' => true]);

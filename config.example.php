@@ -8,7 +8,7 @@
 define('SITE_NAME', 'Art by Ashley');
 define('SITE_TAGLINE', 'Clay sculptures, abstract paintings, and handmade oddities, made to order.');
 define('SITE_URL', 'https://artbyahhhshuhlee.ca');
-define('SITE_EMAIL', 'hello@ashleycamarneiro.ca');
+define('SITE_EMAIL', 'hello@artbyahhhshuhlee.ca');
 define('SITE_LOCATION', 'Canada');
 
 // --- MySQL database (powers the launch-list signup form) ---
@@ -20,10 +20,10 @@ define('DB_USER', 'REPLACE_ME');
 define('DB_PASS', 'REPLACE_ME');
 
 // Where signup notifications get emailed to (defaults to SITE_EMAIL).
-define('NOTIFY_EMAIL', 'hello@ashleycamarneiro.ca');
+define('NOTIFY_EMAIL', 'hello@artbyahhhshuhlee.ca');
 // The "From" address used when sending notification emails. On Hostinger this
 // should be a real mailbox on your domain so mail() delivers reliably.
-define('MAIL_FROM', 'hello@ashleycamarneiro.ca');
+define('MAIL_FROM', 'hello@artbyahhhshuhlee.ca');
 
 // Social links — fill in real handles when ready, leave blank to hide the icon.
 $SOCIAL_LINKS = [
